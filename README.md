@@ -50,23 +50,12 @@ The goal is to analyze which model performs better in predicting flood risks.
 
 ## 📊 Results
 
-| Model                               | Evaluation Metrics                                |
-| ----------------------------------- | ------------------------------------------------- |
-| **Support Vector Classifier (SVC)** | Accuracy:0.9912, Classification Report:
-                precision    recall  f1-score   support
+| Model                               | Evaluation Metrics  |
+| ----------------------------------- | ------------------- |
+| **Support Vector Classifier (SVC)** | Accuracy:0.9912     |
+| **Logistic Regression**             | Accuracy:1.0        |
+| **Random Forest Classifier**        | Accuracy:0.8984     |
 
-           0       0.99      0.99      0.99      4821
-           1       0.99      0.99      0.99      5179
-
-    accuracy                           0.99     10000
-   macro avg       0.99      0.99      0.99     10000
-weighted avg       0.99      0.99      0.99     10000, 
-
-
-| **Logistic Regression**             | Accuracy, Classification Report, Confusion Matrix |
-| **Random Forest Classifier**        | Accuracy, Classification Report, Confusion Matrix |
-
-*(Replace with actual results once you run all models.)*
 
 ---
 
@@ -84,7 +73,7 @@ weighted avg       0.99      0.99      0.99     10000,
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/flood-prediction.git
+   git clone https://github.com/WaleedAfridi-1/flood-prediction.git
    ```
 2. Navigate to the project folder:
 
